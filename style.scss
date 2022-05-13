@@ -6,15 +6,14 @@
 }
 
 body {
-    header {
-        background-color: rgb(243, 243, 243);
-        padding: 20px;
+    background-color: rgb(243, 243, 243);
 
+    header {
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin: 0 12%;
+            margin: 20px 12%;
 
             .left_side {
                 display: flex;
@@ -91,7 +90,7 @@ body {
                     align-items: center;
                     justify-content: space-between;
                     cursor: pointer;
-                    
+
 
                     .icon {
                         margin-right: 10px;
@@ -125,8 +124,116 @@ body {
                                 fill: white;
                             }
                         }
-                        span{
+
+                        span {
                             color: #454274;
+                        }
+                    }
+                }
+            }
+        }
+
+        .search_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background-color: white;
+            padding: 20px 0;
+
+            .inner_content {
+                margin: 0 12%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .left {
+                    width: 36%;
+                    
+                    form {
+                        display: flex;
+                        align-items: center;
+                        border-radius: 40px;
+                        background-color: rgb(243, 243, 243);
+
+                        input {
+                            background-color: rgb(243, 243, 243);
+                            border: none;
+                            padding: 20px;
+                            outline: none;
+                            border-radius: 40px;
+                            width: 100%;
+                        }
+                        button{
+                            margin-right: 30px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            i{
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .right{
+                    width: 27%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    cursor: pointer;
+
+                    
+                    .user{
+                        padding: 12px 20px;
+                        background-color: #454274;
+                        color: white;
+                        border-radius: 50px;
+                        display: flex;
+                        align-items: center;
+                        transition: .2s ease-in-out;
+
+                        svg{
+                            width: 10px;
+                            margin-right: 10px;
+                        }
+                        &:hover{
+                            opacity: 0.8;
+                        }
+                    }
+                    .liked{
+                        border-radius: 50px;
+                        padding: 15px;
+                        background-color: #f2d7d9;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        transition: .2s ease-in-out;
+
+                        i{
+                            color: #d85c5e;
+                        }
+                        &:hover{
+                            opacity: 0.8;
+                        }
+                    }
+                    .card{
+                        padding: 12px 20px;
+                        background-color: #f2bc49;
+                        color: white;
+                        border-radius: 50px;
+                        display: flex;
+                        align-items: center;
+                        transition: .2s ease-in-out;
+
+                        svg{
+                            width: 15px;
+                            margin-right: 10px;
+                        }
+                        &:hover{
+                            opacity: 0.8;
                         }
                     }
                 }

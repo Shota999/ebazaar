@@ -5,9 +5,8 @@
   text-decoration: none;
 }
 
-body header {
+body {
   background-color: #f3f3f3;
-  padding: 20px;
 }
 
 body header .header {
@@ -20,7 +19,7 @@ body header .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 12%;
+  margin: 20px 12%;
 }
 
 body header .header .left_side {
@@ -173,5 +172,157 @@ body header .header .right_side .registration:hover svg path {
 
 body header .header .right_side .registration:hover span {
   color: #454274;
+}
+
+body header .search_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+}
+
+body header .search_container .inner_content {
+  margin: 0 12%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .search_container .inner_content .left {
+  width: 36%;
+}
+
+body header .search_container .inner_content .left form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 40px;
+  background-color: #f3f3f3;
+}
+
+body header .search_container .inner_content .left form input {
+  background-color: #f3f3f3;
+  border: none;
+  padding: 20px;
+  outline: none;
+  border-radius: 40px;
+  width: 100%;
+}
+
+body header .search_container .inner_content .left form button {
+  margin-right: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+body header .search_container .inner_content .left form button i {
+  font-size: 18px;
+}
+
+body header .search_container .inner_content .right {
+  width: 27%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+body header .search_container .inner_content .right .user {
+  padding: 12px 20px;
+  background-color: #454274;
+  color: white;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+body header .search_container .inner_content .right .user svg {
+  width: 10px;
+  margin-right: 10px;
+}
+
+body header .search_container .inner_content .right .user:hover {
+  opacity: 0.8;
+}
+
+body header .search_container .inner_content .right .liked {
+  border-radius: 50px;
+  padding: 15px;
+  background-color: #f2d7d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+body header .search_container .inner_content .right .liked i {
+  color: #d85c5e;
+}
+
+body header .search_container .inner_content .right .liked:hover {
+  opacity: 0.8;
+}
+
+body header .search_container .inner_content .right .card {
+  padding: 12px 20px;
+  background-color: #f2bc49;
+  color: white;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+body header .search_container .inner_content .right .card svg {
+  width: 15px;
+  margin-right: 10px;
+}
+
+body header .search_container .inner_content .right .card:hover {
+  opacity: 0.8;
 }
 /*# sourceMappingURL=style.css.map */
