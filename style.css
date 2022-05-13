@@ -20,6 +20,7 @@ body header .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 12%;
 }
 
 body header .header .left_side {
@@ -32,7 +33,7 @@ body header .header .left_side {
 }
 
 body header .header .left_side .logo {
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 body header .header .left_side .logo h1 {
@@ -56,6 +57,15 @@ body header .header .left_side nav {
           justify-content: space-between;
 }
 
+body header .header .left_side nav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body header .header .left_side nav .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,6 +78,12 @@ body header .header .left_side nav .nav ul {
           justify-content: space-between;
 }
 
+body header .header .left_side nav .nav ul li {
+  margin-right: 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
 body header .header .left_side nav .nav ul li button {
   border: none;
   display: -webkit-box;
@@ -76,9 +92,86 @@ body header .header .left_side nav .nav ul li button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 body header .header .left_side nav .nav ul li button i {
   margin-right: 5px;
+}
+
+body header .header .left_side nav .nav ul li a {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .header .left_side nav .nav ul li a i {
+  margin-right: 10px;
+  color: #66b769;
+}
+
+body header .header .left_side nav .nav ul li a span {
+  font-weight: bold;
+  color: #66b769;
+}
+
+body header .header .right_side .registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+body header .header .right_side .registration .icon {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  padding: 12px 14px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+body header .header .right_side .registration .icon svg {
+  width: 15px;
+  max-height: 18px;
+}
+
+body header .header .right_side .registration span {
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+body header .header .right_side .registration:hover .icon {
+  background-color: #454274;
+}
+
+body header .header .right_side .registration:hover svg path {
+  fill: white;
+}
+
+body header .header .right_side .registration:hover span {
+  color: #454274;
 }
 /*# sourceMappingURL=style.css.map */
